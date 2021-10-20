@@ -1,0 +1,54 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: aqua;
+}
+.nav {
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: aliceblue;
+}
+.content {
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    align-self: center;
+}
+.main {
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightskyblue;
+}
+.aside {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: bisque;
+}
+.footer {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: aqua;
+}
