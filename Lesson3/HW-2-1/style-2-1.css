@@ -1,0 +1,35 @@
+body {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.widgets {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightskyblue;
+}
+
+.main {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.content {
+    width: 33.33%;
+    background: aqua;
+    margin: 10px;
+}
+
+.contact {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightskyblue;
+}

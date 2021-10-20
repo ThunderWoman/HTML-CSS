@@ -1,0 +1,42 @@
+body div {
+    border: 1px solid lightskyblue;
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+#header {
+height: 150px;
+    background: lightskyblue;
+}
+.content {
+    display: flex;
+}
+#menu {
+    height: 200px;
+    width: 20%;
+    background: aliceblue;
+}
+.posts {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.post {
+    height: 50%;
+    background: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bottom {
+    margin-top: 5px;
+}
+#footer {
+    height: 200px;
+    background: aquamarine;
+}
