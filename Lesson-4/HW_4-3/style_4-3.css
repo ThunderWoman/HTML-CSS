@@ -1,0 +1,36 @@
+.mt_5 {
+    margin-top: 5px;
+}
+
+.f-grow_1 {
+    flex-grow: 1;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-lav {
+    background: lavender;
+}
+
+.general {
+    width: 600px;
+    height: 1200px;
+    padding: 5px;
+    background: lightskyblue;
+}
+
+.header, .bottom {
+    height: 30%;
+    display: flex;
+    column-gap: 5px;
+}
+
+.content {
+    height: 40%;
+    column-gap: 5px;
+    display: flex;
+}
