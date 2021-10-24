@@ -1,9 +1,11 @@
 .mt5 {
     margin-top: 5px;
 }
+
 .f-grow1 {
     flex-grow: 1;
 }
+
 .d_flex {
     display: flex;
     justify-content: center;
@@ -16,15 +18,18 @@
     padding: 5px;
     background: lightskyblue;
 }
+
 .header, .footer {
     height: 30%;
     display: flex;
     column-gap: 5px;
 
 }
+
 .header__left, .header__right, .footer__shishkabobs, .footer__bbq_kabobs, .footer__summer_kabobs {
     background: lavender;
 }
+
 .content {
     height: 40%;
     column-gap: 5px;
