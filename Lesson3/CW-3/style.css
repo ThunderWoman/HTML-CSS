@@ -5,7 +5,7 @@
 
 .d_flex {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
 }
 
