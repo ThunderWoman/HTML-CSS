@@ -2,18 +2,20 @@
     margin: 0;
     padding: 0;
 }
+
 .col_gap_10 {
     display: flex;
     column-gap: 10px;
 
 }
+
 .d_flex {
-    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: lavender;
 }
+
 .flex_gr_1 {
     flex-grow: 1;
 
@@ -40,6 +42,7 @@
     width: 150px;
     height: 200px;
 }
+
 .content_left {
     width: 75%;
     display: flex;
