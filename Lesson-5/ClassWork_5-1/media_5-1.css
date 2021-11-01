@@ -1,0 +1,23 @@
+@media screen and (max-width: 400px) {
+
+    .main {
+        padding: 5px;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+    .content__list, .main_content_grid {
+        flex-direction: column;
+    }
+
+    .main_content__list {
+        width: 100%;
+        padding: 0;
+    }
+
+    .content_title {
+        text-align: center;
+    }
+}
