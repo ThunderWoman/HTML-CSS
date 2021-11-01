@@ -1,0 +1,53 @@
+@media screen and (max-width: 400px) {
+    .soc__icon {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav__header_button {
+        display: flex;
+
+    }
+
+    .main {
+        padding: 5px;
+    }
+
+    .main_content {
+        padding: 10px;
+    }
+
+    .main__content_list, .soc_content_grid {
+        flex-direction: column;
+    }
+
+    .soc_content__list {
+        width: 100%;
+        padding: 0;
+    }
+
+    .products_container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .contact__name_office, .button_lviv, .button_kyiv {
+        width: 50%;
+    }
+
+    .button_lviv, .button_kyiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact_kyiv, .contact_lviv {
+        height: 90%;
+    }
+}
