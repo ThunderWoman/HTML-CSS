@@ -1,0 +1,48 @@
+@media screen and (max-width: 400px) {
+    .content-left h1 {
+        font-size: 34px;
+        line-height: 55px;
+    }
+
+    .navbar-collapse {
+        display: none;
+    }
+
+    .content-left-third {
+        width: 100%;
+    }
+
+    .content-right {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .wrap_list ol {
+        column-count: 1;
+    }
+
+    .carousel-item > img {
+        width: 100%;
+    }
+
+    .buttons_items {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .buttons_items > .btn, .footer_title, .footer_text, .footer_logo {
+        width: 100%;
+    }
+
+    .footer, .footer_contact {
+        flex-direction: column;
+    }
+
+    .footer_contact_adress, .footer_contact_phone, .footer_contact_shortlinks, .footer_contact_link {
+        width: 100%;
+        flex-direction: column;
+    }
+}
