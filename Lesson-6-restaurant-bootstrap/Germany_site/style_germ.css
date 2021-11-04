@@ -1,0 +1,234 @@
+.header {
+    background: rgba(255, 255, 255, 0.3);
+    mix-blend-mode: normal;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 1px -1px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    border: 2px solid transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2E75FF;
+    mix-blend-mode: multiply;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.content-left {
+    margin-top: 100px;
+}
+
+.content-left h1 {
+    font-weight: bold;
+
+    line-height: 55px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.content-left p {
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    margin-top: 110px;
+    position: relative;
+}
+
+.content-left p::before,
+.content-left p::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 227px;
+    height: 7px;
+    background-color: #EDEFF3;
+}
+
+.content-left p::before {
+    top: -55px;
+}
+
+.content-left p::after {
+    bottom: -55px;
+}
+
+.content-right {
+    padding: 0;
+}
+
+.content-right > img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0;
+}
+
+.content-left-second {
+    font-size: 17px;
+    line-height: 32px;
+    margin-top: 100px;
+}
+
+.col-xl-5 > h5 {
+    color: #1652AC;
+}
+
+.content-left-third {
+    width: 60%;
+}
+
+.width {
+    width: 40%;
+}
+
+.content-left-third, .content-left-third > h5 {
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+    color: #FFFFFF;
+}
+
+.content-left-third > h5 {
+    flex-grow: inherit;
+    margin-top: 100px;
+}
+
+.content-left-third > p {
+    flex-grow: inherit;
+    margin-top: 50px;
+}
+
+.inform_title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.inform {
+    background-color: #FBFBFC;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.inform_title {
+    padding-top: 50px;
+}
+.inform_btn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 5px;
+    padding-bottom: 50px;
+}
+.btn {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 33%;
+    border-radius: 16px;
+}
+.btn-light {
+    background-color: #FFFFFF;
+}
+
+.list_control {
+    margin: 10px;
+}
+
+.wrap_list ol {
+    list-style-position: inside;
+    column-count: 2;
+    list-style-type: decimal;
+    height: auto;
+}
+
+.wrap_list h5 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wrap_list ol li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.carousel_title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.buttons-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.buttons_items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+
+}
+
+.buttons_items > .btn, .footer_title, .footer_text, .footer_logo {
+    width: 33%;
+}
+
+.footer, .footer_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid #EEF0F4;
+    margin-left: 30px;
+    column-gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer_title, .footer_text, .footer_logo, .footer_contact_adress, .footer_contact_phone, .footer_contact_shortlinks, .footer_contact_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer_text, .footer_contact_adress, .footer_contact_phone, .footer_contact_shortlinks, .footer_contact_link {
+    flex-direction: column;
+}
+
+.color_blue {
+    color: #1652AC;
+}
+
+.footer_contact_adress, .footer_contact_phone, .footer_contact_shortlinks, .footer_contact_link {
+    width: 24%;
+    flex-direction: column;
+
+}
+
+.footer_logo, .btn, .footer_text_p {
+    margin-top: 15px;
+}
+
+.footer_contact {
+    background-color: #FBFBFC;
+}
