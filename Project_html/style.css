@@ -127,6 +127,9 @@ body {
     line-height: 14px;
 }
 
+.whatsapps_mobile {
+    display: none;
+}
 .nav-link > img {
     margin-right: 20px;
 }
