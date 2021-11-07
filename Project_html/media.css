@@ -1,0 +1,103 @@
+@media screen and (max-width: 400px) {
+    .wrapper {
+        max-width: 400px;
+        margin: 0 0 0 7px;
+        padding: 0;
+    }
+    .place {
+        display: flex;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .time_work, .adr_place, .phone {
+        display: none;
+    }
+
+    .telephone {
+        order: 1;
+    }
+    .whats {
+        order: 2;
+    }
+
+    .private_office {
+        display: none;
+    }
+
+    .catalog_text {
+        display: none;
+    }
+
+    .button_nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header_top {
+        flex-direction: column;
+    }
+
+    .header_top, .carousel-inner, .header_top_left{
+        width: 290px;
+        height: 100%;
+    }
+
+    .carousel-inner {
+        width: auto;
+        height: auto;
+    }
+.carousel-caption {
+    display: block;
+}
+    .header_bottom {
+        flex-direction: column;
+    }
+
+    .header_bottom_block {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .button_content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .product_cart_item {
+        width: 48%;
+        margin-right: 5px;
+    }
+
+    .news_box__item >img  {
+        display: none;
+    }
+    .news_box__line {
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .news_box {
+        height: 730px;
+    }
+
+    .news_box__item {
+        margin-top: 20px;
+    }
+
+    .footer, .footer_left, .footer_right__top  {
+        flex-direction: column;
+    }
+
+    .footer_right__bottom >.input-group {
+        margin: 10px;
+    }
+    .footer_icon {
+        margin-bottom: 25px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
