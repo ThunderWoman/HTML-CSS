@@ -1,6 +1,40 @@
-* {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
     margin: 0;
     padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Tinos', serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
 }
 
 .wrapper {
@@ -29,8 +63,7 @@ body {
 
 #navbarNavDropdown {
     justify-content: space-between;
-    font-size: 14px;
-    line-height: 16px;
+
 }
 
 .nav_top > .d-flex {
@@ -217,14 +250,21 @@ p > del {
     height: 356px;
 }
 
+.news_box__header {
+    margin: 20px 0;
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
 .news_box__line {
     width: 100%;
     height: 9px;
     top: 2189px;
     background: #F5F5F5;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
 }
 
@@ -232,14 +272,16 @@ p > del {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+}
+
+.data_figure {
     flex-direction: column;
-    margin-top: 212px;
 }
 
 .news_data {
     position: relative;
     text-align: center;
-    margin-top: -5px;
 }
 
 .news_data_text {
@@ -269,6 +311,8 @@ p > del {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+    margin-top: 15px;
+    padding-top: 15px;
 }
 
 .footer_left, .footer_right__top {
@@ -295,7 +339,6 @@ p > del {
 
 .contact, .adress {
     width: 50%;
-    margin-left: 50px;
     row-gap: 15px;
 }
 
@@ -304,12 +347,21 @@ p > del {
     text-decoration: none;
 }
 
+.footer_right__bottom {
+    align-items: flex-end;
+}
+
 .adress > p {
     color: #FFFFFF;
 }
 
 .contact > h5, p, .adress > h5 {
     color: #858CAB;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    margin-top: 15px;
 }
 
 .input-group > .form-control {
