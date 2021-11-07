@@ -12,10 +12,6 @@
         margin: 0;
     }
 
-    .navbar-toggler {
-        display: none;
-    }
-
     .time_work, .adr_place, .phone {
         display: none;
     }

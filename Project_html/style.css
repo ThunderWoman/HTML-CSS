@@ -6,7 +6,6 @@
 .wrapper {
     max-width: 1354px;
     margin: 0 auto;
-    padding: 0 50px;
 }
 
 .marg-pad {
@@ -20,7 +19,6 @@ body {
 }
 
 .nav_top {
-    height: 36px;
     background-color: #0F2438;
     color: #FFFFFF;
 }
@@ -29,7 +27,7 @@ body {
     height: 36px;
 }
 
-.nav_top >.navbar-collapse {
+#navbarNavDropdown {
     justify-content: space-between;
     font-size: 14px;
     line-height: 16px;
@@ -61,31 +59,53 @@ body {
     padding: 0;
 }
 
+#navbarBasic > ul {
+    align-items: center;
+}
+
 .logotype {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
 }
+
 .navbar {
     padding: 0;
 }
 
-.whatsapp {
+.number_phone, .phone {
+    padding: 0;
+    margin: 0;
+}
+
+.number_phone {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.whatsapps {
+    width: 204px;
+    height: 30px;
     background: #E1EFD0;
     border-color: #E1EFD0;
     color: #000000;
+    font-size: 12px;
+    line-height: 14px;
 }
 
-.nav-link >img {
+.nav-link > img {
     margin-right: 20px;
 }
-.whatsapp >img, .catalog >img {
+
+.whatsapp > img, .catalog > img {
     margin-right: 10px;
 }
-    .catalog {
-        margin-right: 20px;
-    }
+
+.catalog {
+    margin-right: 20px;
+}
 
 .navbar-light .navbar-nav .nav-link {
     color: #0F2438;
@@ -112,10 +132,6 @@ body {
     margin-top: 30px;
     margin-bottom: 70px;
 }
-.carousel-inner {
-    width: 773px;
-    height: 450px;
-}
 
 .carousel-caption > h5, p {
     color: #0A1A2C;
@@ -123,8 +139,8 @@ body {
 
 .header_top_block {
     height: 190px;
-    background:  #F4F5FA;
-    border: 1px solid  #F4F5FA;
+    background: #F4F5FA;
+    border: 1px solid #F4F5FA;
     box-sizing: border-box;
     border-radius: 10px;
     padding: 0;
@@ -135,10 +151,11 @@ body {
     justify-content: space-between;
 }
 
-.header_top_block_body >img {
+.header_top_block_body > img {
     width: 30%;
     height: 30%;
 }
+
 p > del {
     text-decoration: line-through;
     text-decoration-color: #C2C5DA;
@@ -150,6 +167,7 @@ p > del {
     flex-direction: row;
     column-gap: 30px;
 }
+
 .header_bottom_block {
     display: flex;
     justify-content: space-between;
@@ -161,6 +179,7 @@ p > del {
     border-radius: 6px;
     padding: 0;
 }
+
 .button_content {
     height: 100%;
     margin-top: 58px;
@@ -237,7 +256,7 @@ p > del {
     color: #242424;
 }
 
-.news_box__data >.btn {
+.news_box__data > .btn {
     font-size: 16px;
     line-height: 15px;
 }
@@ -251,6 +270,7 @@ p > del {
     font-size: 14px;
     line-height: 16px;
 }
+
 .footer_left, .footer_right__top {
     display: flex;
     flex-direction: row;
@@ -260,6 +280,7 @@ p > del {
     display: flex;
     flex-direction: column;
 }
+
 .footer_left__list {
     display: flex;
     flex-direction: column;
@@ -267,6 +288,7 @@ p > del {
     margin-left: 50px;
     row-gap: 15px;
 }
+
 .footer_left__list > h5 {
     color: #868DAC;
 }
@@ -277,21 +299,21 @@ p > del {
     row-gap: 15px;
 }
 
-.footer_left__list > a, .contact > a, .adress >a {
+.footer_left__list > a, .contact > a, .adress > a {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-.adress >p {
+.adress > p {
     color: #FFFFFF;
 }
 
-.contact >h5, p, .adress >h5 {
+.contact > h5, p, .adress > h5 {
     color: #858CAB;
 }
 
-.input-group >.form-control {
-    background-color:  #0C1A2A;
+.input-group > .form-control {
+    background-color: #0C1A2A;
 }
 
 .footer_icon {
@@ -299,7 +321,8 @@ p > del {
     justify-content: flex-end;
     align-items: end;
 }
-.footer_icon >img {
+
+.footer_icon > img {
     margin-top: 27px;
     margin-left: 55px;
 }
