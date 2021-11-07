@@ -118,23 +118,25 @@ body {
 }
 
 .whatsapps {
-    width: 204px;
-    height: 30px;
+    width: 254px;
+    height: 50px;
     background: #E1EFD0;
     border-color: #E1EFD0;
     color: #000000;
-    font-size: 12px;
-    line-height: 14px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
 }
 
 .whatsapps_mobile {
     display: none;
 }
+
 .nav-link > img {
     margin-right: 20px;
 }
 
-.whatsapp > img, .catalog > img {
+.whatsapps > img, .catalog > img {
     margin-right: 10px;
 }
 
@@ -157,7 +159,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -185,9 +186,11 @@ body {
     margin-top: 30px;
     margin-bottom: 70px;
 }
+
 .carousel-caption {
     padding: 0;
 }
+
 .carousel-caption > h5, p {
     color: #0A1A2C;
 }
@@ -210,6 +213,7 @@ body {
     width: 30%;
     height: 30%;
 }
+
 .header_top_text {
     margin: 10px;
     padding-right: 20px;
@@ -221,6 +225,15 @@ body {
     align-items: center;
     flex-direction: row;
     column-gap: 10px;
+
+}
+
+
+.price_button > p, .price_block > p {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
 }
 
 p > del {
@@ -247,15 +260,16 @@ p > del {
     padding: 0;
 }
 
-.header_bottom_text >h5, p {
+.header_bottom_text > h5, p {
     font-weight: 500;
     margin: 15px 0 0 15px;
 }
 
-.header_bottom_text >.btn {
+.header_bottom_text > .btn {
     margin-left: 15px;
     align-items: end;
 }
+
 .button_content {
     height: 100%;
     margin-top: 58px;
@@ -334,6 +348,7 @@ p > del {
     align-items: center;
     flex-direction: row;
 }
+
 .news_box__item {
     display: flex;
     justify-content: center;
@@ -376,6 +391,7 @@ p > del {
 .footer_main {
     background-color: #0C1A2A;
 }
+
 .footer {
     display: flex;
     flex-direction: row;
