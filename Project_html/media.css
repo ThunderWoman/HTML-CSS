@@ -6,14 +6,29 @@
     }
 
     .place {
-        display: flex;
-        align-items: flex-start;
+        display: block;
         padding: 0;
         margin: 0;
     }
 
-    .time_work, .adr_place, .phone {
+    .dropdown-toggle, .time_work, .adr_place {
         display: none;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .logotype {
+        width: 45%;
+    }
+.contact_centre {
+    flex-direction: column;
+}
+
+    .button_nav {
+        width: 100%;
+        justify-content: space-between;
     }
 
     .telephone {
@@ -52,11 +67,24 @@
     }
 
     .carousel-caption {
+        width: 100%;
         display: block;
     }
 
+    .header_top_right {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 5px;
+        flex-direction: row;
+    }
+
     .header_bottom {
-        flex-direction: column;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 10px;
     }
 
     .header_bottom_block {
@@ -65,12 +93,22 @@
     }
 
     .button_content {
-        display: flex;
+        display: inline-flex;
+        justify-content: start;
+        align-items: center;
         flex-direction: row;
+        margin-top: 50px;
+        height: 100%;
     }
 
+    .product_cart_inner {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
     .product_cart_item {
-        width: 48%;
+        flex-wrap: wrap;
+        width: 40%;
         margin-right: 5px;
     }
 
@@ -79,18 +117,26 @@
     }
 
     .news_box__line {
-        justify-content: flex-start;
+        display: none;
+    }
+
+    .data_figure >img {
+        display: none;
+    }
+
+    .news_box__items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
 
-    .news_box {
-        height: 730px;
-    }
-
     .news_box__item {
-        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
     }
-
     .footer, .footer_left, .footer_right__top {
         flex-direction: column;
     }
