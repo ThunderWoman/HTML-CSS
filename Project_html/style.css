@@ -326,6 +326,10 @@ p > del {
     background: #E1E5F8;
 }
 
+.border_mobile {
+    display: none;
+}
+
 .demo_kontent {
     height: 100%;
     margin-top: 58px;

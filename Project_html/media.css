@@ -209,6 +209,18 @@
         margin-right: 5px;
     }
 
+    .border {
+        display: none;
+    }
+    .border_mobile {
+        display: flex;
+        width: 400px;
+        height: 1px;
+        left: 283px;
+        top: 1519px;
+        background: #E1E5F8;
+    }
+
     .news_box__item > img {
         display: none;
     }
