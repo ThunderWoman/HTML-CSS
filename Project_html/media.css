@@ -5,16 +5,31 @@
         padding: 0;
     }
 
-    .nav_top > .navbar > .navbar-collapse {
+    .nav_top {
         display: none;
     }
 
-    #navbarDropdownMenuLinkPlace {
+    .nav_top_mobile {
         display: flex;
         justify-content: flex-start;
         align-items: start;
         padding: 0;
         margin: 0;
+    }
+
+    .nav_top_mobile > .nav-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    .nav_top_mobile > .navbar > .navbar-nav {
+        max-width: 400px;
+        height: 36px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-direction: row;
     }
 
     .dropdown-toggle, .time_work, .adr_place {
@@ -122,7 +137,6 @@
     }
 
     .header_top_text > p, h6 {
-        font-weight: 500;
         font-size: 16px;
         line-height: 18px;
     }

@@ -25,7 +25,9 @@ footer, header, hgroup, menu, nav, section {
 
 body {
     line-height: 1;
-    font-family: 'Tinos', serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
 }
 
 ol, ul {
@@ -51,25 +53,27 @@ body {
     align-items: center;
 }
 
-.nav_top {
+.nav_top, .nav_top_mobile {
     background-color: #0F2438;
     color: #FFFFFF;
 }
 
-.nav_top > .navbar {
+.nav_top_mobile {
+    display: none;
+}
+.nav_top > .navbar, .nav_top_mobile > .navbar {
     height: 36px;
 }
 
 #navbarNavDropdown {
     justify-content: space-between;
-
 }
 
 .nav_top > .d-flex {
     flex-direction: column;
 }
 
-.nav_top > .navbar-dark .navbar-nav .nav-link {
+.nav_top > .navbar-dark .navbar-nav .nav-link, .nav_top_mobile > .navbar-dark .navbar-nav .nav-link {
     color: #FFFFFF;
 }
 
@@ -202,6 +206,10 @@ body {
     box-sizing: border-box;
     border-radius: 10px;
     padding: 0;
+}
+
+.header_top_block > h6 {
+    margin: 10px;
 }
 
 .header_top_block_body {
@@ -424,6 +432,7 @@ p > del {
 
 .footer_left__list > h5 {
     color: #868DAC;
+    margin-top: 15px;
 }
 
 .contact, .adress {
@@ -447,6 +456,7 @@ p > del {
 .contact > h5, p, .adress > h5 {
     color: #858CAB;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .input-group {
