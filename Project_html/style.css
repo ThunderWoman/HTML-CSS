@@ -357,20 +357,21 @@ p > del {
 .news_box__items {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
 }
 
 .news_box__item {
     display: flex;
-    justify-content: center;
+    width: 25%;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 }
 
 .data_figure {
     flex-direction: column;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 .news_data {
@@ -394,6 +395,9 @@ p > del {
     margin-top: 15px;
 }
 
+.news_box__data > p {
+    margin-top: 0;
+}
 .news_box__data > .btn {
     font-size: 16px;
     line-height: 15px;
@@ -457,7 +461,7 @@ p > del {
     color: #FFFFFF;
 }
 
-.contact > h5, p, .adress > h5 {
+.contact > h5, .contact > p, .adress > h5 {
     color: #858CAB;
     margin-bottom: 15px;
     margin-top: 15px;
